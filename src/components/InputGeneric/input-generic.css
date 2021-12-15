@@ -1,0 +1,27 @@
+.input-generic {
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    padding: 3px;
+    width: 98%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.input-generic svg {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.input-generic input {
+    background: transparent;
+    width: 100%;
+    outline-width: 0;
+    color: black;
+    border: none;
+    font-size: 17px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

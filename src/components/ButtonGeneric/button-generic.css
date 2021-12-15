@@ -1,0 +1,23 @@
+.button-generic {
+    text-align: center;
+    width: 100%;
+  }
+
+.button-generic button {
+    width: 98%;
+    background-color: #FFFFC4;
+    color: black;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+    outline-width: 0;
+}
+  
+.button-generic button:hover {
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+}

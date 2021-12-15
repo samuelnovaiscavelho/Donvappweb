@@ -1,0 +1,143 @@
+.available-products {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    color: black;
+}
+
+/* ---------------------------------------- */
+
+.available-products-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+/* ---------------------------------------- */
+
+.available-products-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 75%;
+}
+
+/* ---------------------------------------- */
+
+.available-products-left-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.available-products-left-top div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.available-products-left-top svg {
+    font-size: 60px;
+    color: black;
+    margin-left: 25px;
+}
+
+.available-products-left-top h1 {
+    font-size: 24px;
+    color: black;
+    margin: 0px;
+    margin-bottom: 12px;
+    padding: 0px;
+}
+
+.available-products-left-top h4 {
+    font-size: 14px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ---------------------------------------- */
+
+.available-products-left-botton {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80%;
+    width: 100%;
+}
+
+/* ---------------------------------------- */
+
+.available-products-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+}
+
+/* ---------------------------------------- */
+
+.available-products-right-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+}
+
+/* ---------------------------------------- */
+
+.available-products-right-botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+}
+
+.available-products-right-botton h4 {
+    font-size: 12px;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+.available-products-right-botton button {
+    background-color: #9eff4e;
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    outline-width: 0;
+    margin-left: 10px;
+}
+  
+.available-products-right-botton button:hover {
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+}
+
+/* ---------------------------------------- */

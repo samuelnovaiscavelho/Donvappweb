@@ -1,0 +1,109 @@
+@media only screen and (min-width: 685px) {
+    .card-markets-conteiner { 
+        background-color: white;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 680px;
+        height: 120px;
+    }
+
+    .card-markets-conteiner-left { 
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-top-left-radius: 19px;
+        border-bottom-left-radius: 19px;
+        width: 40px;
+        height: 120px;
+    }
+
+    .card-markets-conteiner-line { 
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 1px;
+        height: 120px;
+    }
+
+    .card-markets-conteiner-text { 
+        background-color: white;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        display: flex;
+        width: 200px;
+    }
+
+    .card-markets-conteiner-text h4 { 
+        font-size: 12px;
+        color: black;
+        margin: 2px;
+    }
+
+    .card-markets-conteiner-icon { 
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 50px;
+    }
+
+    .card-markets-conteiner-icon svg { 
+        font-size: 44px;
+        color: black;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .card-markets-conteiner { 
+        background-color: white;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card-markets-conteiner-left { 
+        font-size: 0px;
+    }
+
+    .card-markets-conteiner-line { 
+        font-size: 0px;
+    }
+
+    .card-markets-conteiner-text { 
+        background-color: white;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 10px;
+    }
+
+    .card-markets-conteiner-text h4 { 
+        font-size: 12px;
+        color: black;
+        margin: 2px;
+    }
+
+    .card-markets-conteiner-icon { 
+        font-size: 0px;
+    }
+
+    .card-markets-conteiner-icon svg { 
+        font-size: 0px;
+    }
+}

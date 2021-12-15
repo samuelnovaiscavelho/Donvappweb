@@ -1,0 +1,96 @@
+@media only screen and (min-width: 685px) {
+    .card-reservations-conteiner { 
+        background-color: white;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 680px;
+        height: 120px;
+    }
+
+    .card-reservations-conteiner-left { 
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-top-left-radius: 19px;
+        border-bottom-left-radius: 19px;
+        width: 40px;
+        height: 120px;
+    }
+
+    .card-reservations-conteiner-line { 
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 1px;
+        height: 120px;
+    }
+
+    .card-reservations-conteiner-center { 
+        background-color: white;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        width: 200px;
+        height: 120px;
+    }
+
+    .card-reservations-conteiner-center h4 { 
+        font-size: 12px;
+        color: black;
+        margin: 2px;
+    }
+
+    .card-reservations-space { 
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 685px) {
+    .card-reservations-conteiner { 
+        background-color: white;
+        border-radius: 20px;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .card-reservations-conteiner-left { 
+        text-align: center;
+    }
+    
+    .card-reservations-conteiner-line {
+        text-align: center;
+    }
+    
+    .card-reservations-conteiner-center { 
+        background-color: white;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        margin: 10px;
+    }
+    
+    .card-reservations-conteiner-center h4 { 
+        font-size: 12px;
+        color: black;
+        margin: 2px;
+    }
+    
+    .card-reservations-space { 
+        margin-bottom: 0px;
+    }
+}

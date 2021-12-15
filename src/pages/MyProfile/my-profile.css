@@ -1,0 +1,85 @@
+.my-profile {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: black;
+}
+
+.my-profile button {
+    width: 300px;
+    background-color: #9eff4e;
+    color: black;
+    font-weight: 800;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    border: none;
+    outline-width: 0;
+}
+  
+.my-profile button:hover {
+    background-color: #f1f1f1;
+    color: black;
+    cursor: pointer;
+}
+
+.my-profile-svg {
+    font-size: 100px;
+    margin: 25px;
+}
+
+.my-profile-space {
+    margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 875px) {
+    .my-profile-center {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    .my-profile-center-conteiner {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .my-profile-line {
+        width: 2px;
+        height: 450px;
+        display: flex;
+        background-color: black;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 875px) {
+    .my-profile-center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .my-profile-center-conteiner {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .my-profile-line {
+        background-color: transparent;
+    }
+}
